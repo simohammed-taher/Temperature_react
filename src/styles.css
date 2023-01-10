@@ -7,7 +7,11 @@ body {
   align-items: center;
   text-align: center;
   min-height: 100vh;
+  background-color:  #1e0d1b ;
+  background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/nature/018.webp') ;
+  
 }
+
 
 .app-container {
   height: 400px;
