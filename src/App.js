@@ -18,6 +18,11 @@ const App = () => {
     if (newTemperature >= 15) {
       setTemperatureColor("hot");
     }
+    if (newTemperature === 30) {
+      setTemperatureColor("hoot");
+    }if (newTemperature < 30) {
+      setTemperatureColor("hot");
+    }
   };
 
   const decreaseTemperature = () => {
@@ -25,9 +30,17 @@ const App = () => {
 
     const newTemperature = temperatureValue - 1;
     setTemperatureValue(newTemperature);
-    if (newTemperature < 20) {
+    if (newTemperature <= 20) {
+      setTemperatureColor("cold");
+    } if (newTemperature === 0) {
+      setTemperatureColor("coold");
+    }if (newTemperature > 0) {
       setTemperatureColor("cold");
     }
+    
+  
+
+
   };
 
   return (

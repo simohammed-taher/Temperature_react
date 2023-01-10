@@ -12,7 +12,7 @@ body {
 .app-container {
   height: 400px;
   width: 300px;
-  background: #2b5870;
+  background: #0d181e;
   border-radius: 20px;
   box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
 }
@@ -70,7 +70,13 @@ button:focus {
 .cold {
   background: #035aa6;
 }
+.coold {
+  background: #a60388;
+}
 
 .hot {
-  background: #ff5200;
+  background: #ca0b0b;
+}
+.hoot {
+  background: #28ca0b;
 }
